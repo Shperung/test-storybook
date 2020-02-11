@@ -15,7 +15,7 @@ export default {
 
 export const textarea1 = () => (
   <div>
-    <textarea onClick={action('clicked')} onChange={action('changed')}>textarea1</textarea>
-    <textarea onClick={action('clicked')} onChange={action('changed')}>textarea1.1</textarea>
+    <textarea  onClick={action('clicked')} onChange={action('changed')}>textarea1</textarea>
+    <textarea  onClick={action('clicked')} onChange={action('changed')}>textarea1.1</textarea>
   </div>);
-export const textarea2 = () => <textarea onClick={action('clicked')} onChange={action('changed')}>textarea2</textarea>;
+export const textarea2 = () => <textarea name="textarea2" onClick={action('clicked')} onChange={action('changed')}>textarea2</textarea>;

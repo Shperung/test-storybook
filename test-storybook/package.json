@@ -45,6 +45,7 @@
     "@storybook/addon-viewport": "^5.3.13",
     "@storybook/addons": "^5.3.12",
     "@storybook/react": "^5.3.12",
-    "babel-loader": "^8.0.6"
+    "babel-loader": "^8.0.6",
+    "storybook-addon-react-live-edit": "^2.0.4"
   }
 }

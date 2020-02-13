@@ -1,13 +1,15 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
+import { withA11y } from '@storybook/addon-a11y';
+import { withKnobs, text, boolean, number } from "@storybook/addon-knobs";
+
 import Button from '../src/Button.js'
 
-import { withA11y } from '@storybook/addon-a11y';
 
 export default {
   title: 'Button',
   component: Button,
-  decorators: [withA11y],
+  decorators: [withA11y, withKnobs],
 };
 
 
@@ -18,3 +20,19 @@ export const Emoji = () => (
     </span>
   </Button>
 );
+
+// Knobs for React props
+export const withAButton = () => (
+  <button disabled={boolean("Disabled", false)}>
+    {text("Label", "Hello Storybook")}
+  </button>
+);
+
+// Knobs as dynamic variables.
+export const asDynamicVariables = () => {
+  const name = text("Name", "James");
+  const age = number("Age", 35);
+  const content = `I am ${name} and I'm ${age} years old.`;
+
+  return <div>{content}</div>;
+};

@@ -8,3 +8,5 @@
 
 5 `@storybook/addon-viewport` - Storybook Viewport Addon allows your stories to be displayed in different sizes and layouts in Storybook. This helps build responsive components inside of Storybook.
 
+6 `storybook-addon-react-live-edit` - Storybook  addon providing live react story editing and preview
+

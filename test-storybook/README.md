@@ -4,3 +4,5 @@
 
 3 `@storybook/addon-notes` - Storybook Addon Notes allows you to write notes (text or HTML) for your stories in Storybook.
 
+4 `@storybook/addon-backgrounds` - Storybook Background Addon can be used to change background colors inside the preview in Storybook.
+

@@ -6,3 +6,5 @@
 
 4 `@storybook/addon-backgrounds` - Storybook Background Addon can be used to change background colors inside the preview in Storybook.
 
+5 `@storybook/addon-viewport` - Storybook Viewport Addon allows your stories to be displayed in different sizes and layouts in Storybook. This helps build responsive components inside of Storybook.
+

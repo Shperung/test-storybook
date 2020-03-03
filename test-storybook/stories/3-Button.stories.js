@@ -2,6 +2,7 @@
 import * as React from 'react';
 import {storiesOf, setAddon} from '@storybook/react';
 import LiveEdit, { withLiveEditScope } from 'storybook-addon-react-live-edit';
+import Button from '../src/Button.js'
 
 setAddon(LiveEdit);
 
